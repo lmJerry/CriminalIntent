@@ -25,6 +25,10 @@ public class Crime {
         return mData;
     }
 
+    public UUID getmId() {
+        return mId;
+    }
+
     public void setmData(Date mData) {
         this.mData = mData;
     }
